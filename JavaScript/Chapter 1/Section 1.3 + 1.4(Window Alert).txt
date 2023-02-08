@@ -1,0 +1,6 @@
+We can create an alert box by the following command:
+alert('test')
+
+Also, we can use promt on screen e.g.
+var name = prompt("What is your name?");
+console.log(name);

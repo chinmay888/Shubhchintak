@@ -1,0 +1,9 @@
+DOM stands for Document Object Model. It is an object-oriented representation of structured documents like XML
+e.g we have a paragraph with id "ok"
+<p id="ok"></p>
+We dont have any text in it. To manipulate it or add text in it, we can type
+document.getElementbyId("ok").textContent = "test"
+The first line of code will now be seen as 
+<p id="ok">test<p/>
+
+We can also do this same for manipulating the body tags
