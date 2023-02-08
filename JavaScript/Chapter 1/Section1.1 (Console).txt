@@ -1,0 +1,20 @@
+Section 1.1 Usage of console:
+console.log("Type message here") prints the message.
+
+It can also be used to display stored variables.
+var hi = "test"
+console.log(hi)
+
+We can log two or more variables, we can use comma to seperate them.
+var hi = "test1"
+var bye = "test2"
+console.log(hi,bye)
+
+We can log objects too, which is useful for API calls
+console.log({
+'Email' : '123@gmail.com',
+'Name' : 'Test',
+})
+
+We can also log HTML components, such as body or head etc.
+console.log(document.body)
