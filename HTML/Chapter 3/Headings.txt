@@ -1,0 +1,3 @@
+HTML provides not only plain paragraph tags, but six separate header tags to indicate headings of various sizes and
+thicknesses. Enumerated as heading 1 through heading 6, heading 1 has the largest and thickest text while heading
+6 is the smallest and thinnest, down to the paragraph level. This topic details proper usage of these tags.
