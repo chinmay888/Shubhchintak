@@ -1,0 +1,4 @@
+HTML offers three ways for specifying lists: ordered lists, unordered lists, and description lists. Ordered lists use
+ordinal sequences to indicate the order of list elements, unordered lists use a defined symbol such as a bullet to list
+elements in no designated order, and description lists use indents to list elements with their children. This topic
+explains the implementation and combination of these lists in HTML markup.
