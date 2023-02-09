@@ -1,0 +1,2 @@
+Anchor tags are commonly used to link separate webpages, but they can also be used to link between different
+places in a single document, often within table of contents or even launch external applications.
