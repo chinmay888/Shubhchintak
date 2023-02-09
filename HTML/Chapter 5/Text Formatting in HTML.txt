@@ -1,0 +1,3 @@
+While most HTML tags are used to create elements, HTML also provides in-text formatting tags to apply specific
+text-related styles to portions of text. This topic includes examples of HTML text formatting such as highlighting,
+bolding, underlining, subscript, and stricken text.
