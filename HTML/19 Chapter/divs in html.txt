@@ -1,0 +1,3 @@
+The div element in HTML is a container element that encapsulates other elements and can be used to group and
+separate parts of a webpage. A div by itself does not inherently represent anything but is a powerful tool in web
+design.
