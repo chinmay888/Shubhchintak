@@ -1,0 +1,16 @@
+<!DOCTYPE html>>
+<html>
+    <script>
+        function showDetails(intelligence) {
+        var intelligenceType = intelligence.getAttribute("data-intelligence-type");
+        alert("The " + intelligence.innerHTML + " is a " + intelligenceType + ".");
+}
+    </script>
+    <head>Data Attributes</head>
+    <ul>
+        <li onclick="showDetails(this)" id="smart" data-intelligence-type="smart">You</li>
+        <li onclick="showDetails(this)" id="maybe" data-intelligence-type="maybe">You</li>  
+        <li onclick="showDetails(this)" id="dumb" data-intelligence-type="dumb">You</li>
+    </ul>
+
+</html>
