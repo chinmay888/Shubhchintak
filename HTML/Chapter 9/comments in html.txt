@@ -1,0 +1,2 @@
+HTML comments can be used to leave notes to yourself or other developers about a specific point in code. They can
+be initiated with <!-- and concluded with -->, like so:
