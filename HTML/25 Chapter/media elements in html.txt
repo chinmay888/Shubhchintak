@@ -1,0 +1,10 @@
+HTML5 introduced 5 most popular media element tags i.e. <audio>, <video>, <source>, <embed>, <track>. This media element tags changed the entire development using HTML.
+
+
+Media Tags:
+
+<audio>: It is an inline element that is used to embed sound files into a web page.
+<video>:  It is used to embed video files into a web page.
+<source>: It is used to attach multimedia files like audio, video, and pictures.
+<embed>: It is used for embedding external applications which are generally multimedia content like audio or video into an HTML document.
+<track>:  It specifies text tracks for media components audio and video.
