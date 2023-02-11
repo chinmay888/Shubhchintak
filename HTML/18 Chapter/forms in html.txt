@@ -1,0 +1,2 @@
+In order to group input elements and submit data, HTML uses a form element to encapsulate input and submission
+elements. These forms handle sending the data in the specified method to a page handled by a server or handler.
