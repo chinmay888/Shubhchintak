@@ -1,0 +1,4 @@
+There are two types of css
+one that we write in html called as inline css
+another that we write in external file and link it to the html,
+also called as external css
