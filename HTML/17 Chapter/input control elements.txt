@@ -1,0 +1,3 @@
+A key component of interactive web systems, input tags are HTML elements designed to take a specific form of
+input from users. Different types of input elements can regulate the data entered to fit a specified format and
+provide security to password entry.
