@@ -1,0 +1,5 @@
+Javascript code can be written inside the html document by using <script> tag.
+In case the browser does not supports Javascript, we can use the <noscript> tag to notify
+
+<script type="text/javascript" src="URL" async></script>
+The above code can be used to include the js code asychronously
