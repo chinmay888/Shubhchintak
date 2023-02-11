@@ -1,0 +1,2 @@
+The <label> element is used to reference a form action element.
+In the scope of User Interface it's used to ease the target / selection of elements like Type radio or checkbox.
