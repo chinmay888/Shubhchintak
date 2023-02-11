@@ -1,0 +1,9 @@
+Classes and IDs make referencing HTML elements from scripts and stylesheets easier. The class attribute can be
+used on one or more tags and is used by CSS for styling. IDs however are intended to refer to a single element,
+meaning the same ID should never be used twice. IDs are generally used with JavaScript and internal document
+links, and are discouraged in CSS.
+
+
+Classes can be repeated in the same document.
+But id cannot be duplicated.
+Also,  having same class for different elements can be useful or create unusual errors in the document.
