@@ -1,0 +1,9 @@
+src Specifies the URL of the image
+srcset Images to use in different situations (e.g., high-resolution displays, small monitors, etc)
+sizes Image sizes between breakpoints
+crossorigin How the element handles crossorigin requests
+usemap Name of image map to use
+ismap Whether the image is a server-side image map
+alt Alternative text that should be displayed if for some reason the image could not be displayed
+width Specifies the width of the image (optional)
+height Specifies the height of the image (optional)
