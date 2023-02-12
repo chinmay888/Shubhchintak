@@ -1,0 +1,2 @@
+The embed tag is new in HTML5. This element provides an integration point for an external (typically non-HTML)
+application or interactive content.
