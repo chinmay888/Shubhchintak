@@ -1,0 +1,2 @@
+Meta tags in HTML documents provide useful information about the document including a description, keywords,
+author, dates of modifications and around 90 other fields.
