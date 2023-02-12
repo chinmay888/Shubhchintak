@@ -1,0 +1,3 @@
+The HTML <q> tag defines a short quotation.
+The HTML <blockquote> element defines a section that is quoted from another source.
+<cite> is used for citation
