@@ -1,0 +1,1 @@
+The tabindex attribute specifies the tab order of an element (when the "tab" button is used for navigating).
