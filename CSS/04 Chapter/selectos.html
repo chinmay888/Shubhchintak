@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        Selectors in CSS
+    </head><br>
+    <style>
+        p{
+            color: blue;
+        }
+        div p{
+            color: brown;
+        }
+        div:hover{
+            background-color: blueviolet;
+        }
+        .p1::first-line{
+            color: blueviolet;
+        }
+        a[target] {
+            background-color: yellow;
+        }
+    </style>
+    <body>
+        <p>Simple Selectors</p><br>
+        <div>
+            <p>
+                Combinator Selector
+            </p>
+        </div>
+        <div>
+            <p>Pseudo-Class Selector</p>
+        </div>
+        <p class="p1">This first line on the screen will be colored differently with the help of Pseudo-Class Selector
+            which is firstline in this case. The scope may change as the width of the screen changes
+        </p>
+        <p>
+            <a href="https://www.w3schools.com">w3schools.com</a>
+            <a href="http://www.disney.com" target="_blank">disney.com</a>
+            <a href="http://www.wikipedia.org" target="_top">wikipedia.org</a>
+        </p>
+    </body>
+</html>
