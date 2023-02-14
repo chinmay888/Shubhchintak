@@ -1,0 +1,7 @@
+Outline is a line that goes around the element, outside of the border. In contrast to border, outlines do not take any
+space in the box model. So adding an outline to an element does not affect the position of the element or other
+elements.
+In addition, outlines can be non-rectangular in some browsers. This can happen if outline is applied on a span
+element that has text with different font-size properties inside it. Unlike borders, outlines cannot have rounded
+corners.
+The essential parts of outline are outline-color, outline-style and outline-width.
