@@ -1,0 +1,2 @@
+There are different types of centering. From differing use cases, number of things to center, etc.
+There are different ways to center the items on the screen. But all of them are used under different scenarios.
