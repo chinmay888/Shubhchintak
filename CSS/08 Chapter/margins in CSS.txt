@@ -1,0 +1,12 @@
+The CSS margin properties are used to create space around elements, outside of any defined borders.
+
+With CSS, we have full control over the margins. 
+There are properties for setting the margin for each side of an element (top, right, bottom, and left).
+
+All CSS Margin Properties
+Property	        Description
+margin	            A shorthand property for setting all the margin properties in one declaration
+margin-bottom	    Sets the bottom margin of an element
+margin-left	        Sets the left margin of an element
+margin-right	    Sets the right margin of an element
+margin-top	        Sets the top margin of an element
