@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        Media Queries in class
+    </head>
+    <style>
+        body{
+            background-color: green;
+        }
+        @media only screen and (max-width: 600px) {
+        body {
+        background-color: lightblue;
+             }
+        }
+        @media only screen and (min-width: 300px) and (max-width: 767px) {
+        .site-title {
+        font-size: 80%;
+        }
+    }
+    </style>
+    <body>
+        <p>The Display color will change to blue when screen size is smaller than the 
+            specified value. Otherwise it will stay green.
+        </p>
+    </body>
+</html>
