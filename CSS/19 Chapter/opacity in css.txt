@@ -1,0 +1,2 @@
+An element's opacity can be set using the opacity property. Values can be anywhere from 0.0 (transparent) to 1.0
+(opaque).
