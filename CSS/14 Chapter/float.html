@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        Float in CSS
+    </head>
+    <style>
+        img{
+            float: right;
+        }
+        .d1{
+            float: left;
+            background-color: darkblue;
+            padding: 20px;
+        }
+        .d2{
+            float: left;
+            background: red;
+            padding: 20px;
+        }
+        .d3{
+            float: left;
+            background-color: yellow;
+            padding: 20px;
+        }
+        .div1{
+            padding: 20px;
+            border: 2px solid red;
+            float: left;
+        }
+        .div2{
+            padding: 20px;
+            border: 2px solid blue;
+            clear: left;
+        }
+    </style>
+    <body>
+        <div>
+        <p>This is some text. The float property here is used
+            on the image to make the image appear on the side of
+            the text rather than overlapping it
+            <img src="image.jpeg">
+
+        </p>
+        
+    </div>
+    <div class="d1">Div 1</div>
+    <div class="d2">Div 2</div>
+    <div class="d3">Div 3</div><br><br><br><br>
+
+    <div class="div1">HI</div>
+    <div class="div2">Using clear property on this div 
+        will make it go under the upper div
+    </div>
+    </body>
+</html>
