@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        Positioning in CSS
+    </head>
+    <style>
+        .d1{
+            position: static;
+            padding: 20px;
+            background-color: red;
+        }
+        .d2{
+            position: relative;
+            padding: 20px;
+            background-color: blue;
+        }
+        .d3{
+            position: fixed;
+            padding: 20px;
+            background-color: brown;
+            float: left;
+        }
+        .d4{
+            position: absolute;
+            padding: 20px;
+            background-color: aquamarine;
+            float: left;
+        }
+    </style>
+    <body>
+        <div class="d1">This is static</div>
+        <div class="d2">This is relative</div>
+        <div class="d3">This is fixed
+            <div class="d4">This is absolute</div>
+        </div>
+        
+    </body> 
+</html>
