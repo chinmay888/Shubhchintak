@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        Pseudo Elements in CSS
+    </head>
+    <style>
+        p::first-line{
+            color: blue;
+        }
+        li:before {
+        content: "";
+        display: inline-block;
+        margin-right: 10px;
+        height: 10px;
+        width: 10px;
+        background: linear-gradient(red, blue);
+        }
+    </style>
+    <body>
+        <p> We can add psudo elements to change color of first line 
+            and rest of the text will remain as it is. The changes
+            depends on how small the screen size is, etc
+        </p>
+        <ul>
+            <li>Test I</li>
+            <li>Test II</li>
+            </ul>
+    </body>
+</html>
