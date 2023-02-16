@@ -1,0 +1,13 @@
+Cursor Types
+Value       Description
+none        No cursor is rendered for the element
+auto        Default. The browser sets a cursor
+help        The cursor indicates that help is available
+wait        The cursor indicates that the program is busy
+move        The cursor indicates something is to be moved
+pointer     The cursor is a pointer and indicates a link
+
+The pointer-events property allows for control over how HTML elements respond to mouse/touch events.
+
+The caret-color CSS property specifies the color of the caret, the visible indicator of the insertion point in an
+element where text and other content is inserted by the user's typing or editing.
