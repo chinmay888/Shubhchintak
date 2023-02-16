@@ -1,0 +1,14 @@
+Value           Description
+blur(x)         Blurs the image by x pixels.
+brightness(x)   Brightens the image at any value above 1.0 or 100%. Below that, the image will be
+                darkened.
+contrast(x)     Provides more contrast to the image at any value above 1.0 or 100%. Below that, the
+                image will get less saturated.
+drop-shadow(h, v, x, y, z) Gives the image a drop-shadow. h and v can have negative values. x, y, and z are optional.
+greyscale(x)     Shows the image in greyscale, with a maximum value of 1.0 or 100%.
+hue-rotate(x)    Applies a hue-rotation to the image.
+invert(x)        Inverts the color of the image with a maximum value of 1.0 or 100%.
+opacity(x)       Sets how opaque/transparent the image is with a maximum value of 1.0 or 100%.
+saturate(x)      Saturates the image at any value above 1.0 or 100%. Below that, the image will start to
+                 de-saturate.
+sepia(x)         Converts the image to sepia with a maximum value of 1.0 or 100%.
