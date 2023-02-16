@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        Transitions in CSS
+    </head>
+    <style>
+        .d1{
+            padding: 20px;
+            background-color: red;
+        }
+        .d1:hover{
+            background-color: blue;
+        }
+        .d2{
+            padding: 20px;
+            background-color: yellow;
+            transition-duration: 1s;
+            transition-timing-function: linear;
+        }
+        .d2:hover{
+            background-color: aqua;
+        }
+    </style>
+    <body>
+        <div class="d1">The color will change to blue when cursor 
+            is placed on top of this div
+        </div><br>
+        <div class="d2">The color will change to blue when cursor 
+            is placed on top of this div
+        </div>
+    </body>
+</html>

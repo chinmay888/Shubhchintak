@@ -1,0 +1,10 @@
+Parameter                   Details
+transition-property         The specific CSS property whose value change needs to be transitioned (or) all, if all the
+                            transitionable properties need to be transitioned.
+transition-duration         The duration (or period) in seconds (s) or milliseconds (ms) over which the transition
+                            must take place.
+transition-timing-function  A function that describes how the intermediate values during the transition are
+                            calculated. Commonly used values are ease, ease-in, ease-out, ease-in-out, linear,
+.
+transition-delay            The amount of time that must have elapsed before the transition can start. Can be
+                            specified in seconds (s) or milliseconds (ms)
