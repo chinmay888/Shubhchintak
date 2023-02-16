@@ -1,0 +1,3 @@
+The box-shadow property in CSS is used to give a shadow-like effect to the frames of an element. 
+The multiple effects can be applied to the element’s frame which is separated by the comma. 
+The box-shadow can be described using X and Y offsets relative to the element, blur and spread radius, and color.
