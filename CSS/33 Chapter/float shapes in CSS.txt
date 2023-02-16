@@ -1,0 +1,11 @@
+Parameter                            Details
+none                                 A value of none means that the float area (the area that is used for wrapping content around a float
+                                     element) is unaffected. This is the default/initial value.
+basic-shape                          Refers to one among inset(), circle(), ellipse() or polygon(). Using one of these functions and its
+                                     values the shape is defined.
+
+shape-box                            Refers to one among margin-box, border-box, padding-box, content-box. When only <shape-box> is
+                                     provided (without <basic-shape>) this box is the shape. When it is used along with <basic-shape>, this
+                                     acts as the reference box.
+ image                               When an image is provided as value, the shape is computed based on the alpha channel of the image
+                                     specified.
