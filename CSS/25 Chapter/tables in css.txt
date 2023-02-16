@@ -1,0 +1,5 @@
+The table-layout property changes the algorithm that is used for the layout of a table.
+A table in CSS is used to apply the various styling properties to the HTML Table elements to arrange the data in rows and columns, 
+or possibly in a more complex structure in a properly organized manner. Tables are widely used in communication, research, and data 
+analysis. The table-layout property in CSS can be utilized to display the layout of the table. This property is basically used to
+sets the algorithm that is used to layout <table>cells, rows, and columns.
