@@ -1,0 +1,20 @@
+Function/Parameter                Details
+rotate(x)                         Defines a transformation that moves the element around a fixed point on the Z axis
+translate(x,y)                    Moves the position of the element on the X and Y axis
+translateX(x)                     Moves the position of the element on the X axis
+translateY(y)                     Moves the position of the element on the Y axis
+scale(x,y)                        Modifies the size of the element on the X and Y axis
+scaleX(x)                         Modifies the size of the element on the X axis
+scaleY(y)                         Modifies the size of the element on the Y axis
+skew(x,y)                         Shear mapping, or transvection, distorting each point of an element by a certain angle in
+                                  each direction
+skewX(x)                          Horizontal shear mapping distorting each point of an element by a certain angle in the
+                                  horizontal direction
+skewY(y)                          Vertical shear mapping distorting each point of an element by a certain angle in the vertical
+                                  direction
+matrix()                          Defines a 2D transformation in the form of a transformation matrix.
+                                  angle
+                                  The angle by which the element should be rotated or skewed (depending on the function
+                                  with which it is used). Angle can be provided in degrees (deg), gradians (grad), radians (rad)
+                                  or turns (turn). In skew() function, the second angle is optional. If not provided, there will be
+                                  no (0) skew in Y-axis.
