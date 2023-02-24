@@ -1,0 +1,1 @@
+n JavaScript, we can compare two dates by converting them into numeric values to correspond to their time. First, we can convert the Date into a numeric value by using the getTime() function. By converting the given dates into numeric values we can directly compare them.

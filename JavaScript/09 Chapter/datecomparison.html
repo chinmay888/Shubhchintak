@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        Date Comparison in JS   
+    </head>
+    <body>
+        <p id="p1"></p>
+        <p id="p2"></p>
+        <script>
+            var a = new Date();
+            var b = new Date(a);
+            var same = a.getTime() === b.getTime();
+            var notSame = a.getTime() !== b.getTime();
+            document.getElementById("p1").innerHTML = +same;
+            document.getElementById("p2").innerHTML = +notSame;
+        </script>
+    </body>
+</html>     
