@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="p1"></p>
+        <p id="p2"></p>
+        <p id="p3"></p>
+        
+        <script>
+            const person ={
+                name : "jj"
+            };
+            document.getElementById("p1").innerHTML="Name is: "+person.name;
+            person.name = "kk";
+            document.getElementById("p2").innerHTML="Name is: "+person.name;
+
+        </script>
+        <p id="vari"></p>
+        <script>
+            var a = 10;
+            var b = 20;
+            var z = a+b;
+            document.getElementById("vari").innerHTML="The Value of Z is "
+            +z;
+        </script>
+         <script>
+            //addition
+            let x = 5;
+            let y = 2;
+            let o = x + y;
+            document.getElementById("p3").innerHTML = o;
+        </script>
+        <script>
+            var a;
+            console.log(a);
+        </script>
+    </body>
+</html>
