@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="p1"></p>
+        <p id="p2"></p>
+        <p id="p3"></p>
+        <p id="p4"></p>
+        <p id="p5"></p>
+        <script>
+            var array = ['a', 'b', 'c'];
+            for (var i = 0; i < array.length; i++) {
+            document.getElementById("p1").innerHTML= array;
+            }
+            
+        </script>
+        <script>
+            const person = {fname:"John", lname:"Doe", age:25}; 
+            
+            let txt = "";
+            for (let x in person) {
+              txt += person[x] + " ";
+            }
+            
+            document.getElementById("p2").innerHTML = txt;
+            </script>
+            
+<script>
+    const cars = ["BMW", "Volvo", "Mini"];
+    
+    let text = "";
+    for (let x of cars) {
+      text += x + "<br>";
+    }
+    
+    document.getElementById("p3").innerHTML = text;
+    </script>
+    <script>
+        let t = "";
+        let p = 0;
+        while (p < 10) {
+          t += "<br>The number is " + p;
+          p++;
+        }
+        document.getElementById("p4").innerHTML = t;
+        </script>
+        <script>
+            let textt = "";
+            for (let i = 0; i < 10; i++) {
+              if (i === 3) { break; }
+              textt += "The number is " + i + "<br>";
+            }
+            
+            document.getElementById("p5").innerHTML = textt;
+            </script>
+    </body>
+</html>
