@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="p1"></p>
+            <script>
+                function Person(first,last, age, ){
+                    this.firstname = first;
+                    this.lastname = last;
+                    this.age = age;
+
+                }
+                const myDetail= new Person("Chinmay", "Bhat", 22);
+                document.getElementById("p1").innerHTML= "My name is "+myDetail.firstname + " My age is "+myDetail.age;
+            </script>
+        </p>
+    </body>
+</html>
