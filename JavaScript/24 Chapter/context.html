@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="p1">
+
+        </p>
+        <script>
+            const test = {
+  prop: 42,
+  func: function() {
+    return this.prop;
+  },
+};
+document.getElementById("p1").innerHTML=test.prop;
+        </script>
+    </body>
+</html>
