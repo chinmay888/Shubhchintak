@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="p1"></p>
+        <script>
+            var setValue;
+var obj = {};
+Object.defineProperty(obj, "objProperty", {
+get: function(){
+return "a value";
+},
+set: function(value){
+setValue = value;
+}
+});
+        </script>
+        <script>
+            class Person {
+constructor(firstname, lastname) {
+this._firstname = firstname;
+this._lastname = lastname;
+}
+get firstname() {
+return this._firstname;
+}
+set firstname(name) {
+this._firstname = name;
+}
+get lastname() {
+return this._lastname;
+}
+set lastname(name) {
+this._lastname = name;
+}
+}
+let person = new Person('John', 'Doe');
+document.getElementById("p1").innerHTML=person.firstname + " "+ person.lastname;
+
+        </script>
+    </body>
+</html>
