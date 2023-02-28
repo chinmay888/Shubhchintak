@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="p1"></p>
+        <script>
+        
+function Land() {
+this.area = '';
+this.status = 'for Sale';
+}
+
+Land.prototype.open = function() {
+this.status = 'Open for Sale';
+return this;
+}
+
+Land.prototype.close = function() {
+this.status = 'Not for Sale';
+return this;
+}
+
+Land.prototype.setParams = function(area) {
+this.area = area;
+return this;
+}
+
+Land.prototype.doorStatus = function() {
+    document.getElementById("p1").innerHTML=this.area + this.status;
+return this;
+}
+
+
+var land = new Land();
+land.setParams("500 sq ft").close().doorStatus().open().doorStatus();
+
+        </script>
+    </body>
+</html>
