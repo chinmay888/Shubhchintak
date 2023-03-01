@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="p1"></p>
+        <p id="p2"></p>
+        <script>
+            //Local
+            localStorage.setItem("Chinmay","Bhat");
+            document.getElementById("p1").innerHTML= localStorage.getItem("Chinmay");
+            //session storage
+            sessionStorage.setItem("lastname", "Smith");
+let personName = sessionStorage.getItem("lastname");
+document.getElementById("p2").innerHTML = personName;
+        </script>
+    </body>
+</html>
