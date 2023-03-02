@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="p1"></p>
+        <script>
+            const numbers = [65, 44, 12, 4];
+            const newArr = numbers.map(myFunction);
+            
+            document.getElementById("p1").innerHTML = newArr;
+            
+            function myFunction(num) {
+              return num * 10;
+            }
+            </script>
+    </body>
+</html>
