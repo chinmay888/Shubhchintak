@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="p1"></p>
+        
+        <Script>
+            var isPerformanceSupported = (
+    window.performance &&
+    window.performance.now &&
+    window.performance.timing &&
+    window.performance.timing.navigationStart
+);
+
+var timeStampInMs = (
+    isPerformanceSupported ?
+    window.performance.now() +
+    window.performance.timing.navigationStart :
+    Date.now()
+);
+document.getElementById("p1").innerHTML= timeStampInMs, + Date.now();
+
+        </Script>
+    </body>
+</html>
